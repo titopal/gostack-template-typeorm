@@ -9,7 +9,7 @@ export default class CreateTransactions1603125868917
         columns: [
           {
             name: 'id',
-            type: 'id',
+            type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
             default: 'uuid_generate_v4()',
